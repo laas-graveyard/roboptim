@@ -1,0 +1,25 @@
+<package>
+  <description brief="RobOptim core IPOPT plug-in">
+
+    This is the IPOPT plug-in for RobOptim.
+
+  </description>
+  <author>See package AUTHORS file.</author>
+  <license>LGPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/roboptim-core-ipopt-plugin</url>
+
+  <export>
+    <rosdoc
+       external=
+       "http://laas.github.com/roboptim-core-ipopt-plugin/doxygen/HEAD/index.html" />
+  </export>
+  <rosdep name="git"/>
+  <rosdep name="boost"/>
+
+  <rosdep name="libltdl"/>
+  <depend package="libipopt"/>
+
+  <versioncontrol type="git"
+		  url="git://github.com/laas/roboptim-core-ipopt-plugin.git"/>
+</package>

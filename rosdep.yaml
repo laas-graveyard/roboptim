@@ -1,0 +1,5 @@
+libltdl:
+  ubuntu: libltdl-dev
+
+libipopt:
+  ubuntu: coinor-libipopt-dev

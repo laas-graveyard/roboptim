@@ -1,0 +1,25 @@
+<package>
+  <description brief="RobOptim core layer">
+
+    RobOptim core is a toolbox for numerical optimization
+    applied to robotics.
+
+  </description>
+  <author>See package AUTHORS file.</author>
+  <license>LGPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/roboptim-core</url>
+
+  <export>
+    <rosdoc
+       external=
+       "http://laas.github.com/roboptim-core/doxygen/HEAD/index.html" />
+  </export>
+  <rosdep name="git"/>
+  <rosdep name="boost"/>
+
+  <rosdep name="libltdl"/>
+
+  <versioncontrol type="git"
+		  url="git://github.com/laas/roboptim-core.git"/>
+</package>

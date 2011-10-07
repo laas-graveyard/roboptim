@@ -1,0 +1,9 @@
+roboptim-core/build/
+roboptim-core/install/
+roboptim-core/roboptim-core/
+roboptim-core-ipopt-plugin/build/
+roboptim-core-ipopt-plugin/install/
+roboptim-core-ipopt-plugin/roboptim-core/
+roboptim-trajectory/build/
+roboptim-trajectory/install/
+roboptim-trajectory/roboptim-trajectory/

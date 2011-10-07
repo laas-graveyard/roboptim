@@ -1,0 +1,26 @@
+<package>
+  <description brief="RobOptim trajectory layer">
+
+    RobOptim trajectory is a toolbox for trajectory optimization
+    relying on RobOptim core to solve numerical optimization problems.
+
+  </description>
+  <author>See package AUTHORS file.</author>
+  <license>LGPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/roboptim-core</url>
+
+  <export>
+    <rosdoc
+       external=
+       "http://laas.github.com/roboptim-trajectory/doxygen/HEAD/index.html" />
+  </export>
+  <rosdep name="git"/>
+  <rosdep name="boost"/>
+
+  <depend package="roboptim-core"/>
+  <depend package="roboptim-core-ipopt-plugin"/> <!-- For tests only. -->
+
+  <versioncontrol type="git"
+		  url="git://github.com/laas/roboptim-trajectory.git"/>
+</package>
