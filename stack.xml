@@ -1,9 +1,16 @@
 <stack>
-  <description brief="roboptim">roboptim</description>
+  <description brief="RobOptim">
+    RobOptim is an optimization framework dedicated to robotics
+    problem resolution.
+
+    It is divided into a core layer providing numerical optimization
+    tools interfaces, plug-ins containing solvers and other packages
+    implementing tools tackling particular problems such as trajectory
+    optimization.
+  </description>
   <author>Maintained by Thomas Moulard</author>
-  <license></license>  
-  <review status="unreviewed" notes=""/>
+  <license>LGPL</license>  
+  <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/roboptim</url>
   <depend stack="ros" />
-
 </stack>

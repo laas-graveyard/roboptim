@@ -1,7 +1,4 @@
-GIT_DIR = $(PACKAGE_NAME)
-GIT_URL = git://github.com/laas/$(PACKAGE_NAME).git
-GIT_REVISION = master
-
-CMAKE_EXTRA_ARGS=
+VERSION=1.0
+PACKAGE=roboptim-core
 
 include ../common.mk

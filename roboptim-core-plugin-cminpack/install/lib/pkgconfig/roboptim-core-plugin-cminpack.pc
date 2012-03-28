@@ -1,0 +1,20 @@
+prefix=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install
+exec_prefix=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install
+libdir=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/lib
+includedir=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/include
+datarootdir=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/share
+pkgdatarootdir=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/share/roboptim-core-plugin-cminpack
+docdir=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/share/doc/roboptim-core-plugin-cminpack
+doxygendocdir=/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/share/doc/roboptim-core-plugin-cminpack/doxygen-html
+
+Name: roboptim-core-plugin-cminpack
+Description: Non linear least-square optimization using Levenberg Marquardt algorithm.
+URL: 
+Version: 1.0
+Requires: cminpack >= 1.0, roboptim-core >= 0.5
+Conflicts: 
+Libs: -L/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/lib -lroboptim-core-plugin-cminpack
+Libs.private: 
+Cflags: -I/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/install/include
+
+

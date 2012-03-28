@@ -1,0 +1,24 @@
+<package>
+  <description brief="RobOptim core CMinPack plug-in">
+
+    Roboptim Core CMinPack plug-in can be used to solve least-squares
+    problem.
+
+  </description>
+  <author>See package AUTHORS file.</author>
+  <license>LGPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/roboptim-core</url>
+
+  <export>
+    <rosdoc
+       external=
+       "http://laas.github.com/roboptim-core-cminpack-plugin/doxygen/HEAD/index.html" />
+  </export>
+  <rosdep name="boost"/>
+  <rosdep name="cminpack"/>
+
+  <versioncontrol
+     type="git"
+     url="git://github.com/laas/roboptim-core-cminpack-plugin.git"/>
+</package>

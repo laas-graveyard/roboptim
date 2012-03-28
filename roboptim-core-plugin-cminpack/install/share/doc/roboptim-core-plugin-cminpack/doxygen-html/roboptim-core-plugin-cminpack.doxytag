@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>cminpack.cc</name>
+    <path>/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/build/roboptim-core-plugin-cminpack-1.0/src/</path>
+    <filename>a00002</filename>
+    <includes id="a00003" name="cminpack.hh" local="yes" imported="no">roboptim/core/plugin/cminpack.hh</includes>
+    <namespace>roboptim</namespace>
+    <namespace>roboptim::cminpack</namespace>
+    <member kind="typedef">
+      <type>SolverWithJacobian::parent_t</type>
+      <name>solver_t</name>
+      <anchorfile>a00002.html</anchorfile>
+      <anchor>abc0b62183b2f64c90fec0d04ffb6ed4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>matrix_to_array</name>
+      <anchorfile>a00008.html</anchorfile>
+      <anchor>a39f3699c3d7d4eea8d86bf1dd9c7d9ff</anchor>
+      <arglist>(Function::value_type *dst, const Function::matrix_t &amp;src, int iRow)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>roboptim_plugin_cminpack_fcn</name>
+      <anchorfile>a00002.html</anchorfile>
+      <anchor>ae37d425c8c5cf6febde4c6c1f0af714f</anchor>
+      <arglist>(void *p, int m, int n, const double *x, double *fvec, double *fjrow, int iflag)</arglist>
+    </member>
+    <member kind="function">
+      <type>ROBOPTIM_DLLEXPORT unsigned</type>
+      <name>getSizeOfProblem</name>
+      <anchorfile>a00002.html</anchorfile>
+      <anchor>a4ddee346c9488925f266b831b229d18a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>ROBOPTIM_DLLEXPORT solver_t *</type>
+      <name>create</name>
+      <anchorfile>a00002.html</anchorfile>
+      <anchor>a412da30beb2ba633657881b81f6cd2d2</anchor>
+      <arglist>(const SolverWithJacobian::problem_t &amp;pb)</arglist>
+    </member>
+    <member kind="function">
+      <type>ROBOPTIM_DLLEXPORT void</type>
+      <name>destroy</name>
+      <anchorfile>a00002.html</anchorfile>
+      <anchor>af992438f02837bfe836ba0a937747829</anchor>
+      <arglist>(solver_t *p)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>cminpack.hh</name>
+    <path>/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/build/roboptim-core-plugin-cminpack-1.0/include/roboptim/core/plugin/</path>
+    <filename>a00003</filename>
+    <class kind="class">roboptim::cminpack::SolverWithJacobian</class>
+    <namespace>roboptim</namespace>
+    <namespace>roboptim::cminpack</namespace>
+  </compound>
+  <compound kind="file">
+    <name>config.hh</name>
+    <path>/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/build/roboptim-core-plugin-cminpack-1.0/include/roboptim/core/plugin/</path>
+    <filename>a00004</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_VERSION</name>
+      <anchorfile>a00004.html</anchorfile>
+      <anchor>ae3f39b91fb2c902cf8acc0d014380103</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_DLLIMPORT</name>
+      <anchorfile>a00004.html</anchorfile>
+      <anchor>a1155fbc512705d9e122d9285f33c5e7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_DLLEXPORT</name>
+      <anchorfile>a00004.html</anchorfile>
+      <anchor>a3f63a738d272caffde9a59079f6b64e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_DLLLOCAL</name>
+      <anchorfile>a00004.html</anchorfile>
+      <anchor>a7cedb07c7b70bb8f328670584912cf4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_DLLAPI</name>
+      <anchorfile>a00004.html</anchorfile>
+      <anchor>ae80978456b201e19a34731769c9c983e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_LOCAL</name>
+      <anchorfile>a00004.html</anchorfile>
+      <anchor>a3e1b187ed67423a168b4a0696d1e8260</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>deprecated.hh</name>
+    <path>/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/build/roboptim-core-plugin-cminpack-1.0/include/roboptim/core/plugin/</path>
+    <filename>a00005</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_DEPRECATED</name>
+      <anchorfile>a00005.html</anchorfile>
+      <anchor>aee78a196d7cf3f85e3e97015eb216860</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>warning.hh</name>
+    <path>/home/thomas/profiles/laas/src/unstable/ros/stacks/roboptim/roboptim-core-plugin-cminpack/build/roboptim-core-plugin-cminpack-1.0/include/roboptim/core/plugin/</path>
+    <filename>a00006</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_WARN_STRINGISE_IMPL</name>
+      <anchorfile>a00006.html</anchorfile>
+      <anchor>af19f18903f0bf9b2b7b09eb88abef74c</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_WARN_STRINGISE</name>
+      <anchorfile>a00006.html</anchorfile>
+      <anchor>a257c11b034680d47468df8e4b4703c47</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ROBOPTIM_CORE_PLUGIN_CMINPACK_WARN</name>
+      <anchorfile>a00006.html</anchorfile>
+      <anchor>a5ee9ccd82cbb2f3f8c41f0c881c31bd0</anchor>
+      <arglist>(MSG)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>roboptim</name>
+    <filename>a00007.html</filename>
+    <namespace>roboptim::cminpack</namespace>
+  </compound>
+  <compound kind="namespace">
+    <name>roboptim::cminpack</name>
+    <filename>a00008.html</filename>
+    <class kind="class">roboptim::cminpack::SolverWithJacobian</class>
+    <member kind="function">
+      <type>void</type>
+      <name>matrix_to_array</name>
+      <anchorfile>a00008.html</anchorfile>
+      <anchor>a39f3699c3d7d4eea8d86bf1dd9c7d9ff</anchor>
+      <arglist>(Function::value_type *dst, const Function::matrix_t &amp;src, int iRow)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>roboptim::cminpack::SolverWithJacobian</name>
+    <filename>a00001.html</filename>
+    <member kind="typedef">
+      <type>Solver&lt; SumOfC1Squares, boost::mpl::vector&lt;&gt; &gt;</type>
+      <name>parent_t</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a9b45f9b30a9e76ee94de989f2f2d42d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>problem_t::function_t</type>
+      <name>function_t</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a572a4b217551cbe621d9f8cb9b4d1d56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>parent_t::result_t</type>
+      <name>result_t</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a941caef4a3eca354b15576e6900600c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>DerivableFunction::gradient_t</type>
+      <name>gradient_t</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>ab3e93c199d34c7aa547d3831d16bc500</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>Function::size_type</type>
+      <name>size_type</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a20759e0438498b11c27982c884fc194c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SolverWithJacobian</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>aa58ffc3ba2a44354b2af903811fc47c4</anchor>
+      <arglist>(const problem_t &amp;problem)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~SolverWithJacobian</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a5855234f4ef8dfc4f530269da0dac40c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>solve</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a7c15e494684e6148d3a6468f25d68190</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>n</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a316c7099dbe1e024c2ae7c43236259e7</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>m</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>acbd98e66855f8d9fb1ff792e33689981</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Function::argument_t &amp;</type>
+      <name>parameter</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a8bb76916435aff8a93596a3b06b2efe5</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const Function::argument_t &amp;</type>
+      <name>parameter</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>aa955fbe0cbaa549e5106547b0c999063</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const Function::argument_t &amp;</type>
+      <name>value</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>ac3f38fe1d574641c6900bbdce1436137</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const gradient_t &amp;</type>
+      <name>jacobianRow</name>
+      <anchorfile>a00001.html</anchorfile>
+      <anchor>a32315384739d45f45abbde028f8db14d</anchor>
+      <arglist>(size_t iRow) const </arglist>
+    </member>
+  </compound>
+</tagfile>

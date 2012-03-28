@@ -15,10 +15,8 @@
        external=
        "http://laas.github.com/roboptim-core/doxygen/HEAD/index.html" />
   </export>
-  <rosdep name="git"/>
   <rosdep name="boost"/>
-
-  <rosdep name="libltdl"/>
+  <rosdep name="libtool"/>
 
   <versioncontrol type="git"
 		  url="git://github.com/laas/roboptim-core.git"/>
